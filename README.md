@@ -1,12 +1,57 @@
-# React + Vite
+# PokeExplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PokeExplorer** is an interactive React application that fetches Pokémon data from the PokeAPI and allows users to search, filter, and explore Pokémon by their names, types, and other attributes. The app showcases a list of Pokémon in a visually appealing card layout with basic details, such as name, image, ID number, and types. Users can search and filter the list in real-time, making the experience both interactive and fun.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Data Fetching**: Fetches the first 150 Pokémon from the PokeAPI.
+- **Search Functionality**: Filters Pokémon by name in real-time.
+- **Type Filter**: Allows users to filter Pokémon by type (e.g., Fire, Water, Grass, etc.).
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **Attractive UI**: Styled using Tailwind CSS for a modern, clean look.
+- **Pokémon Info**: Displays Pokémon name, image, ID, and types.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for custom styling.
+- **PokeAPI**: Free API that provides Pokémon data.
+- **React Hooks**: Used for state management and lifecycle methods.
+
+---
+
+## Demo
+
+You can view the live demo of the application https://pokeexplorer123.netlify.app. 
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (version 14 or above)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+---
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/pokeexplorer.git
+cd pokeexplorer
+
+
+Install Dependencies
+  npm install
+
+Run the Application
+  npm run dev
+
+
